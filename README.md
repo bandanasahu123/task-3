@@ -1,4 +1,4 @@
-# appiness-test
+# task
 
 ####Backend for appiness -test
 
@@ -50,7 +50,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/bandana-sahu/task-3.git
+    $ git clone https://github.com/bandanasahu123/task-3.git
     $ cd PROJECT_TITLE
     $ npm install
 
@@ -64,7 +64,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ### Git Branches
 
-    Latest code - feature/getallcategory
+    Latest code - master
 
 ### Database Used
 
@@ -78,6 +78,8 @@ nodemon/npm start - to start the project
 
 REST API at http://localhost:3030/
 
+### API request URL - http://localhost:3030/api/get-all-categories
+### Method : GET
 ### Response
 
 
