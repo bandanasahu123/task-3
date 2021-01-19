@@ -84,43 +84,69 @@ REST API at http://localhost:3030/
 
 
 ```{
-    "type": "application/json",
-    "statusCode": 200,
-    "data": [
+  "type": "application/json",
+  "statusCode": 200,
+  "data": [
+    {
+      "_id": "5e7f52ebcd75da9a71b45a9a",
+      "name": "Game",
+      "numOfProducts": 3,
+      "products": [
         {
-            "_id": "5e7f52ebcd75da9a71b45a9a",
-            "name": "Game",
-            "numOfProducts": 3,
-            "products": [
-                {
-                    "_id": "5e7f53d5cd75da9a71b45adf",
-                    "categoryId": "5e7f52ebcd75da9a71b45a9a",
-                    "name": "product1",
-                    "description": "desc",
-                    "price": "$12.00"
-                },
-                ....
-            ]
+          "_id": "5e7f53d5cd75da9a71b45adf",
+          "categoryId": "5e7f52ebcd75da9a71b45a9a",
+          "name": "product1",
+          "description": "desc",
+          "price": "$12.00"
         },
         {
-            "_id": "5e7f5311cd75da9a71b45aa9",
-            "name": "Nature",
-            "numOfProducts": 3,
-            "products": [
-                {
-                    "_id": "5e7f54cecd75da9a71b45b45",
-                    "categoryId": "5e7f5311cd75da9a71b45aa9",
-                    "name": "product4",
-                    "description": "desc",
-                    "price": "$12.00"
-                },
-                ....
-            ]
+          "_id": "5e7f53d5cd75da9a71b45ae1",
+          "categoryId": "5e7f52ebcd75da9a71b45a9a",
+          "name": "product2",
+          "description": "desc",
+          "price": "$16.00"
+        },
+        {
+          "_id": "5e7f53d5cd75da9a71b45ae3",
+          "categoryId": "5e7f52ebcd75da9a71b45a9a",
+          "name": "product3",
+          "description": "desc",
+          "price": "$14.00"
         }
-    ],
-    "status": 200,
-    "success": true,
-    "message": "All the category details."
+      ]
+    },
+    {
+      "_id": "5e7f5311cd75da9a71b45aa9",
+      "name": "Nature",
+      "numOfProducts": 3,
+      "products": [
+        {
+          "_id": "5e7f54cecd75da9a71b45b45",
+          "categoryId": "5e7f5311cd75da9a71b45aa9",
+          "name": "product4",
+          "description": "desc",
+          "price": "$12.00"
+        },
+        {
+          "_id": "5e7f54cecd75da9a71b45b47",
+          "categoryId": "5e7f5311cd75da9a71b45aa9",
+          "name": "product5",
+          "description": "desc",
+          "price": "$12.00"
+        },
+        {
+          "_id": "5e7f54cecd75da9a71b45b49",
+          "categoryId": "5e7f5311cd75da9a71b45aa9",
+          "name": "product6",
+          "description": "desc",
+          "price": "$12.00"
+        }
+      ]
+    }
+  ],
+  "status": 200,
+  "success": true,
+  "message": "All the category details."
 }
 
 
